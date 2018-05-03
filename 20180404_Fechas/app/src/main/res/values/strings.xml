@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Fechas</string>
+    <string name="str_nombre">Nombre</string>
+    <string name="str_fecha_de_nacimiento">Fecha de Nacimiento</string>
+    <string name="str_aceptar">Aceptar</string>
+    <string name="str_limpiar">Limpiar</string>
+</resources>
