@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="str_usuario">Usuario</string>
+    <string name="str_clave">Clave</string>
+    <string name="str_recordar_usuario_y_clave">Recordar usuario y clave</string>
+    <string name="str_aceptar">Aceptar</string>
+    <string name="str_cancelar">Cancelar</string>
+    <string name="str_volver">Volver</string>
+</resources>
