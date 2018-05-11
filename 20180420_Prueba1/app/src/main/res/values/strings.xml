@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Prueba 1 - Luis Arellano</string>
+    <string name="str_ingrese_rut">Ingrese Rut</string>
+    <string name="str_ingrese_nombre">Ingrese Nombre</string>
+    <string name="str_ingrese_apellido">Ingrese Apellido</string>
+    <string name="str_ingrese_fecha_de_nacimiento">Ingrese Fecha de Nacimiento</string>
+    <string name="str_enviar">Enviar</string>
+    <string name="str_rut">Rut</string>
+    <string name="str_nombre">Nombre</string>
+    <string name="str_edad">Edad</string>
+    <string name="str_suscripcion_gratuita_3_meses">Suscripcion Gratuita (3 meses)</string>
+    <string name="str_valida_hasta">Valida Hasta</string>
+    <string name="str_confirmar">Confirmar</string>
+    <string name="str_cerrar">Cerrar</string>
+    <string name="str_pagar">Pagar</string>
+</resources>
