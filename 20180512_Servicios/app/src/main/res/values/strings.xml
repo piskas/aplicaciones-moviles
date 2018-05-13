@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Servicios</string>
+    <string name="str_rut">Rut</string>
+    <string name="str_nombre">Nombre</string>
+    <string name="str_apellido">Apellido</string>
+    <string name="str_fecha_nac">Fecha Nac.</string>
+    <string name="str_credito">Credito</string>
+    <string name="str_guardar">Guardar</string>
+    <string name="str_eliminar">Eliminar</string>
+    <string name="str_servicios">Servicios</string>
+    <string name="str_agregar_servicios">Agregar Servicios</string>
+    <string name="str_contratados">Servicios Contratados</string>
+    <string name="str_credito_hint">$0</string>
+</resources>
