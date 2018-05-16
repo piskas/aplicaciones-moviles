@@ -76,19 +76,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Object item = parent.getItemAtPosition(position);
-
-                if (item instanceof Cliente) {
-                    cliente = (Cliente) item;
-
-                    txtNombre.setText(cliente.getNombre());
-                    txtApellido.setText(cliente.getApellido());
-                    txtFechaNacimiento.setText(sdfDate.format(cliente.getFechaNacimiento()));
-                    txtCredito.setText(cliente.getCredito());
-
-                    btnGuardar.setEnabled(true);
-                    btnEliminar.setEnabled(true);
-                    btnServicios.setEnabled(true);
-                }
+                if (item instanceof Cliente) setCargaCliente((Cliente) item);
             }
         });
         actRut.setOnClickListener(new View.OnClickListener() {
@@ -205,6 +193,7 @@ public class MainActivity extends AppCompatActivity {
         if (requestCode == REQUEST_CODE) {
             cliente = (Cliente) data.getSerializableExtra("cliente");
             setRegistraCliente(cliente, false);
+            setCargaCliente(cliente);
         }
     }
 
@@ -225,6 +214,19 @@ public class MainActivity extends AppCompatActivity {
         btnGuardar.setEnabled(true);
         btnEliminar.setEnabled(false);
         btnServicios.setEnabled(false);
+    }
+
+    private void setCargaCliente(Cliente cliente) {
+        this.cliente = cliente;
+
+        txtNombre.setText(cliente.getNombre());
+        txtApellido.setText(cliente.getApellido());
+        txtFechaNacimiento.setText(sdfDate.format(cliente.getFechaNacimiento()));
+        txtCredito.setText(cliente.getCredito());
+
+        btnGuardar.setEnabled(true);
+        btnEliminar.setEnabled(true);
+        btnServicios.setEnabled(true);
     }
 
     private boolean setRegistraCliente(Cliente cliente, boolean blnMuestraMensaje) {
