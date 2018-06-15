@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Recordatorios</string>
+    <string name="str_usuario">Usuario</string>
+    <string name="str_clave">Clave</string>
+    <string name="str_recordar_usuario">Recordar Usuario</string>
+    <string name="str_recordar_clave">Recordar Clave</string>
+    <string name="str_login">Login</string>
+    <string name="str_salir">Salir</string>
+</resources>
